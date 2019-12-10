@@ -504,6 +504,15 @@ video {
 /* mobiel */
 
     {
+        
+    .container {
+    background-image: url(newyork2.jpg);
+    height: 46em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
     .about {
         background-image: linear-gradient(to top left, black, #0071bc);
