@@ -6,10 +6,10 @@ body {
 .container {
     background-image: url(newyork1.jpg);
     height: 46em;
- 
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .item-1,
