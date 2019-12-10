@@ -506,7 +506,16 @@ video {
     {
         
     .container {
-    background-image: url(newyork1.jpg(opacity=0));
+    opacity: 0;
+    background-image: url(newyork1.jpg);
+    height: 46em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+    .container {
     background-image: url(newyork2.jpg);
     height: 46em;
     background-attachment: fixed;
