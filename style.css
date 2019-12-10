@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 
 .item-1,
@@ -506,7 +507,8 @@ video {
     {
     .container {
     background-image: url(newyork1.jpg);
-    height: 50%;
+    height: 46em;
+    width: 5em;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
