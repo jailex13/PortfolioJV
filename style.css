@@ -506,6 +506,7 @@ video {
     {
         
     .container {
+    background-image: url(newyork1.jpg(opacity=0));
     background-image: url(newyork2.jpg);
     height: 46em;
     background-attachment: fixed;
