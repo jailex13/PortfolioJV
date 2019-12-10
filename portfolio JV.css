@@ -1,0 +1,647 @@
+body {
+    margin: 0em 0em 0em 0em;
+    background-color: #f4f4f4
+}
+
+.container {
+    background-image: url(newyork1.jpg);
+    height: 46em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-1,
+.item-2 {
+    color: white;
+    position: absolute;
+    display: block;
+    top: 2em;
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.item-1 {
+    animation-name: anim-1;
+}
+
+.item-2 {
+    animation-name: anim-2;
+}
+
+@keyframes anim-1 {
+    0%,
+    8.3% {
+        top: 40%;
+        opacity: 0;
+    }
+    25%,
+    35% {
+        top: 45%;
+        opacity: 1;
+    }
+    50%,
+    100% {
+        top: 50%;
+        opacity: 0;
+    }
+}
+
+@keyframes anim-2 {
+    0%,
+    50% {
+        top: 40%;
+        opacity: 0;
+    }
+    75%,
+    87% {
+        top: 45%;
+        opacity: 1;
+    }
+    100%,
+    100% {
+        top: 50%;
+        opacity: 0;
+    }
+}
+
+.container-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.about {
+    background-image: linear-gradient(to top left, black, #0071bc);
+    margin: -3em;
+    height: 43em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    padding-bottom: 7em;
+}
+
+.about h1 {
+    font-size: 4em;
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about h3 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+#text {
+    color: white;
+    padding-left: 6em;
+    padding-top: 1.5em;
+    width: 110%;
+}
+
+#text h2 {
+    font-size: 1.8em;
+}
+
+#text p {
+    width: 80%;
+    font-size: 1.3em;
+}
+
+
+#image {
+    padding-top: 2em;
+    margin-left: 10%;
+    width: 90%;
+}
+
+#image img {
+    width: 20em;
+    margin-left: 10em;
+}
+
+#mijnprojecten {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+}
+
+.grid-item {
+    margin-bottom: 0.6em;
+
+    height: 12em;
+
+
+}
+
+a h2 {
+    font-family: serif;
+    color: black;
+    position: absolute;
+}
+
+.container2 {
+    position: relative;
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 12em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+
+}
+
+.container2:hover .overlay {
+    opacity: .8;
+}
+
+.text {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    height: 1em;
+    padding: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#contact {
+    padding: 1em 3em 1em 5em;
+    background-image: linear-gradient(to top left, black, #0071bc);
+    color: white;
+    text-align: center;
+}
+
+#contact a {
+    color: blue
+}
+
+#contact a h1 {
+    color: white;
+}
+
+
+.inleiding {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em
+}
+
+.verhaal {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em
+}
+
+.projecten {
+    background-color: black;
+}
+
+nav {
+    position: fixed;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+img[alt="x"] {
+    opacity: .7;
+    margin-right: 2em;
+    max-width: 1.5em;
+
+}
+
+img[alt="x"]:hover {
+    opacity: 1;
+}
+
+/*vis op het droge*/
+
+#vormgeving {
+    max-width: 40em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+/*538 halloween*/
+
+#fotos538 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fotos538 img {
+    margin: 1em;
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Ade choose the sound*/
+
+img[alt="ade poster"] {
+    display: block;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#schermen {
+    color: lightgray;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: -1em;
+    margin-left: 2em;
+}
+
+#details {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 40em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+#details img {
+    max-width: 7em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Sedes*/
+
+img[alt="foto van sedes"] {
+    margin-top: -0.7em;
+    width: 100%;
+}
+
+
+
+
+video {
+    display: block;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    border: 5px outset #ddd;
+
+}
+
+/*pokemon*/
+
+.pschetsen {
+    max-width: 40em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+@media (max-width:70em)
+/* tablet */
+
+    {
+
+    .about {
+        background-image: linear-gradient(to top left, black, #0071bc);
+        margin: -3em;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3em;
+        padding-bottom: 7em;
+    }
+
+
+
+
+    .about h1 {
+        font-size: 3em;
+        padding-top: 0.5em;
+        color: white;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #text {
+        color: white;
+        padding-left: 1em;
+        width: 100%;
+        padding-top: 0em;
+    }
+
+    #text p {
+        width: 120%;
+        font-size: 1em;
+    }
+
+    #image {
+        padding-top: 0em;
+        margin-left: 0%;
+        width: 90%;
+    }
+
+    #image img {
+        width: 15em;
+        margin-top: 4em;
+        margin-right: 2em;
+        margin-left: 0em;
+        padding-left: 8em;
+    }
+
+
+    .grid-container {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid-item {
+        display: grid;
+
+    }
+    article img {
+        max-height: 100%;
+
+    }
+
+    .text {
+        font-size: 2em;
+    }
+
+
+    .flex-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #contact {
+        padding: 1em 3em 1em 4em;
+        background-color: black;
+        color: white;
+    }
+    #vormgeving {
+        width: 80%;
+    }
+    #fotos538 {
+        grid-template-columns: 1fr;
+    }
+    #fotos538 img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+
+
+    #details {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #details img {
+        max-width: 90%;
+        margin-top: 1.5em;
+    }
+}
+
+@media (max-width:50em) {
+
+        .about {
+        background-image: linear-gradient(to top left, black, #0071bc);
+        margin: -3em;
+        height: 47em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3em;
+        padding-bottom: 7em;
+    }
+
+    .grid-container {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid-item {
+        display: grid;
+        width: 100%;
+        height: 9em;
+    }
+    article img {
+        max-height: 100%;
+    }
+
+    .text {
+        font-size 1.3em;
+    }
+
+}
+
+
+
+
+
+@media (max-width:40em)
+/* mobiel */
+
+    {
+
+    .about {
+        background-image: linear-gradient(to top left, black, #0071bc);
+        margin: -3em;
+        height: 60em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3em;
+        padding-bottom: 7em;
+    }
+
+    .container-about {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about h1 {
+        font-size: 2em;
+        padding-top: 0.5em;
+        color: white;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .about h3 {
+        font-size: 1.5em;
+    }
+
+    #text {
+        color: white;
+        padding-left: 0;
+        padding-top: 0em;
+        width: 100%;
+    }
+
+    #text h2 {
+        font-size: 1.5em;
+    }
+
+    #text p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    #image {
+        padding-top: 0em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #image img {
+        width: 20em;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0em;
+    }
+
+    .grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        width: 100%;
+        height: 18em;
+    }
+    article img {
+        height: 100%
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+
+    }
+
+    .text {
+        font-size: 3em;
+    }
+
+    img[alt="foto van mijzelf"] {
+        display: flex;
+    }
+    .flex-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #contact {
+        padding: 1em 3em 1em 2em;
+        background-color: black;
+        color: white;
+    }
+    h1.kopje {
+        font-size: 1.5em;
+    }
+
+    .inleiding {
+        color: white;
+        margin: 1em;
+    }
+    #vormgeving {
+        width: 95%;
+    }
+    #fotos538 {
+        grid-template-columns: 1fr;
+    }
+
+    img[alt="ade poster"] {
+        max-width: 95%;
+    }
+
+    #details {
+        grid-template-columns: 1fr;
+        margin: 1em;
+
+    }
+    #details img {
+        max-width: 90%;
+        max-height: 90%;
+        margin-top: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #schermen {
+        color: lightgray;
+        font-size: 1.5em;
+        margin-top: 3em;
+        margin-bottom: 0em;
+        margin-left: 2em;
+    }
+}
